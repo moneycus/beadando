@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8f4; 
+}
+
+header {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    word-break: break-all;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section {
+    margin: 20px;
+    background-image: url('alprazo.png'); 
+    background-size: cover;
+    padding: 20px;
+}
+
+#quiz-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quiz-form p,
+#quiz-form label {
+    margin-bottom: 10px;
+}
+
+#textbox-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#textbox-answer {
+    margin-top: 10px;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.question-container > .row {
+    display: flex;
+    gap: 16px;
+}
+
+.question-container > .row > div {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
