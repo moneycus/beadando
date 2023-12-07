@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pálfi Fanni">
+    <meta name="description" content="Minden amit a gyógyszer-technológiáról tudni érdemes">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet"  href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Gyógyszer-technológia</title>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gyógyszer-technológia</h1>
+        <nav>
+            <ul>
+            	 <li><a href="index.html">Főoldal</a></li>
+                <li><a href="oldat.html">Oldatok</a></li>
+                <li><a href="szemcsepp.html">Szemcseppek</a></li>
+                <li><a href="szirup.html">Szirupok</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Miről is szól a technológia?</h2>
+            <div class="textbox">
+                <p>A gyógyszertechnológia a gyógyszerek fejlesztésének és gyártásának tudománya, amely összekapcsolja a kémiai, biológiai és mérnöki területeket.</p>
+            </div>
+            <div class="textbox">
+                <p>Az első lépés a gyógyszerkifejlesztés, ahol a kutatók azonosítják a potenciális gyógyszerjelölteket. Ezután a preklinikai vizsgálatok során tesztelik a hatékonyságot és a biztonságot. Ha pozitív eredmények születnek, a gyógyszerfejlesztés klinikai fázisba lép, amely három szakaszból áll.</p>
+            </div>
+            <div class="textbox">
+                <p>Az első klinikai fázisban az egészséges önkénteseken tesztelik a gyógyszert, majd a második és harmadik fázisban már a betegeken. Ezek a fázisok a hatékonyság és biztonság szempontjából mérik a gyógyszert, és adataik alapján az illetékes hatóságok jóváhagyhatják a forgalomba hozatalt.</p>
+            </div>
+            <div class="textbox">
+                <p>A gyógyszergyártásnál szigorú minőségellenőrzési szabványoknak kell megfelelnie a gyártóknak. A gyógyszereket steril környezetben állítják elő, és minden gyártási lépés dokumentálva van. A hatóanyagok pontos adagolása és a gyógyszerformák (tabletták, injekciók stb.) előállítása kritikus fontosságú.</p>
+            </div>
+            <div class="textbox">
+                <p>A modern gyógyszertechnológiában gyakran alkalmazzák a biotechnológiai módszereket is, például a rekombináns DNS technológiát a fehérjék előállítására. Az automatizáció és digitalizáció is fontos szerepet játszik a folyamatok optimalizálásában. Ezen túlmenően, a gyógyszertechnológia folyamatosan fejlődik, új módszerekkel és technológiákkal keresve hatékonyabb és biztonságosabb gyógyszerkészítményeket.</p>
+            </div>
+             <div class="textbox">
+                <p>A gyógyszer-technológia tárgy pedig az egyik legfontosabb a jövő gyógyszerészeinek számára, ha szeretnéd felmérni tudásod, akkor töltsd ki az alábbi kvízt!</p>
+            </div>
+         
+        </section>
+    
+        <section>
+            <form action="#" method="post" id="quiz-form">
+                <div class="question-container">
+                    <div class="row">
+                        <div>
+                            <p>1.Mennyi az állategészségügyi gyógyszeripari részesedés a globális gyógyszerpiacon?</p>
+                            <input type="radio" name="answer" value="1" id="q1answer1">
+                            <label for="q1answer1">1%</label>
+            
+                            <input type="radio" name="answer" value="26" id="q1answer2">
+                            <label for="q1answer2">26%</label>
+            
+                            <input type="radio" name="answer" value="70" id="q1answer3">
+                            <label for="q1answer3">70%</label>
+                        </div>
+            
+                        <div>
+                            <p>2.Mit tartalmaz a pozitív lista?</p>
+                            <div>
+                                <input type="checkbox" name="answer1" value="dózis-meghatározás" id="q1answer1">
+                                <label for="q1answer1">dózis meghatározása</label>
+                            </div>
+            
+                            <div>
+                                <input type="checkbox" name="answer2" value="minőségi-követelmények" id="q2answer2">
+                                <label for="q2answer2">minőségi követelmények</label>
+
+                            </div>
+            
+                            <div>
+                                <input type="checkbox" name="answer3" value="keresztjelzés" id="q2answer3">
+                                <label for="q2answer3">keresztjelzés</label>
+                            </div>
+            
+                            <div>
+                                <input type="checkbox" name="answer4" value="név-héberül" id="q2answer4">
+                                <label for="q2answer4">név héberül</label>
+                            </div>
+                        </div>
+
+                    </div>
+        
+                    <div class="row">
+                        <p class="center-text">
+                            3.A gyári készítmények esetében gyakran alkalmazzák az ún.
+                            <span id="textbox-container">
+                                <input type="text" name="answer" id="textbox-answer" placeholder="Ide írd be a válaszod">
+                            </span>
+                            cseppentőt. A cseppentőn középpontosan van elhelyezve a kifolyócső és mellette a levegőztetőcső, amely mélyebben belenyúlik a tartályba.
+                        </p>
+                    </div>
+        
+                    <div class="row">
+                        <div>
+                            <label for="singultus">4.Mi a singultus?</label>
+                            <select id="singultus" name="answer">
+                                <option value="csuklás">csuklás</option>
+                                <option value="hányás">hányás</option>
+                                <option value="bűzös lehelet">bűzös lehelet</option>
+                                <option value="szájszárazság">szájszárazság</option>
+                            </select>
+                        </div>
+            
+                        <div>
+                            <label for="question5">5.Mikor született Szent-Györgyi Albert?</label>
+                            <input type="date" id="question5" name="answer">
+                        </div>
+            
+                        <div>
+                            <label for="question6">6.Hány mg alprazolám van maximálisan egy Alprazolám Sandoz tablettában?</label>
+                            <input type="number" id="question6" name="answer">
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <label for="email">Email címed</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+        
+                    <div class="row">
+                        <button type="submit">Küldés</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        var totalpoints = 0;
+
+        $(document).ready(function() {
+            $("#quiz-form").submit(function(event) {
+                event.preventDefault();
+                
+                validateForm();
+                
+                
+                alert("Az összpontszám: " + totalpoints);
+
+                
+                $("#result").text("Az összpontszám: " + totalpoints);
+                
+                totalpoints = 0;
+            });
+
+            function validateForm() {
+                
+                var isAnswer1Valid = $("input[name='answer']:checked").val() === "1";
+                totalpoints += isAnswer1Valid ? 1 : 0;
+
+                var isAnswer2Valid = $("#q2answer1").is(":checked") && $("q2#answer2").is(":checked") && !$("q2#answer3").is(":checked") && $("q2#answer4").is(":checked");
+                totalpoints += isAnswer2Valid ? 1 : 0;
+
+                var isAnswer3Valid = $("#textbox-answer").val().toLowerCase() === "centrális"; 
+                totalpoints += isAnswer3Valid ? 1 : 0;
+
+                var isAnswer4Valid = $("#singultus").val() === "csuklás";
+                totalpoints += isAnswer4Valid ? 1 : 0;
+
+                var isAnswer5Valid = $("#question5").val() === "1893-09-16";
+                totalpoints += isAnswer5Valid ? 1 : 0;
+
+                var isAnswer6Valid = $("#question6").val() == 1;
+                totalpoints += isAnswer6Valid ? 1 : 0;
+            }
+        });
+    </script>
+</body>
+</html>
+
